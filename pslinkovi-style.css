@@ -20,6 +20,15 @@ td {
 
 a {
     text-decoration: none;
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    color: magenta;
 }
 
 .A, .G {
@@ -28,7 +37,9 @@ a {
 
 .A:hover, .G:hover {
     background-color: lightgreen;
+    cursor: pointer;
 }
+
 
 .C {
     background-color: yellow;
