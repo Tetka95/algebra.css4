@@ -1,0 +1,31 @@
+table {
+    border: 2px solid blue;
+    margin-right: auto;
+    margin-left: auto;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid blue;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.A, .G {
+    background-color: yellow;
+}
+
+.A:hover, .G:hover {
+    background-color: lightgreen;
+}
+
+.C {
+    background-color: yellow;
+}
+
+.C:hover {
+    background-color: red;
+}
