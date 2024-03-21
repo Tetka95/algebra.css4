@@ -50,14 +50,14 @@ body {
 .line2 {
     width: 90px;
     background-color: white;
-    height: 10px;
+    height: 12px;
     top: 70px;
     left: 30px;
     position: absolute;
     transform: rotate(45deg);
 }
 
-.line2::after {
+.line2::before {
     content: "";
     position: absolute;
     width: 30px;
@@ -65,5 +65,5 @@ body {
     background-color: white;
     border-radius: 50%;
     top: -8px;
-    left: 80px;
+    left: 70px;
 }
